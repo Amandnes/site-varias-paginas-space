@@ -8,6 +8,8 @@ body {
     background-size: cover;
     margin: 0;
     height: 100vh;
+    max-width: 1600px;
+    margin: 0px auto;
 }
 body, h1, h3, p, a, h5 {
     font-weight: 100;
@@ -15,23 +17,21 @@ body, h1, h3, p, a, h5 {
     font-family: Oswald;
     letter-spacing: 1px;
 }
-.conteiner-topo, .nav-topo{
+.conteiner-topo, .nav-topo, .separacao-linha-nav{
     display: flex;
+}
+.separacao-linha-nav {
+    align-items: center;
 }
 .conteiner-topo {
     justify-content: space-between;
     padding: 30px 0px 0px 80px;
     align-items: center;
-    width: 1600px;
-    margin: 0px auto;
 }
 .linha-topo {
-    width: 40%;
-    position: absolute;
-    right: 750px;
-    width: 630px;
-    position: absolute;
-    right: 47%;
+    width: 100px;
+    position: relative;
+    height: 18px;
 }
 .nav-topo {
     gap: 40px;
@@ -54,6 +54,11 @@ a {
 hr {
     border: 1px solid #80808052;
 }
+.hr-top {
+    width: 560px;
+    position: absolute;
+    right: -32%;
+}
 .dif-c {
     font-weight: 600;
     color: #808080a1;
@@ -75,7 +80,7 @@ h3 {
     border-bottom: 3px solid white;
 }
 
-.conteiner-conteudo {
+.conteiner-conteudo, .conteudo {
     display: flex;
 }
 #lista-tech {
@@ -118,4 +123,78 @@ p {
     position: absolute;
     left: 58%;
     top: 240px;
+}
+.icon-hm {
+    display: none;
+}
+.icon-close{
+    display: none;
+}
+@media (max-width: 1430px) {
+    .linha-topo {
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    body {
+        background-image: url("../assets/technology/background-technology-tablet.jpg");
+        height: 100%;
+    }
+    .nav-topo {
+        padding: 0px;
+    }
+    strong {
+        display: none;
+    }
+    .conteiner-topo {
+        padding: 0px 0px 0px 40px;
+    }
+    .conteiner-conteudo {
+        display: block;
+    }
+    .conteiner-main {
+        width: 515px;
+    }
+    .img-tech {
+        position: initial;
+    }
+    h3 {
+        margin: 0px;
+    }
+    .titulo-nav {
+        justify-content: center;
+        margin: 85px 0px 50px 0px;
+    }
+}
+@media (max-width: 700px) {
+    .xnav {
+        position: absolute;
+        display: none;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        z-index: 100;
+        text-align: center;
+        background-color: #1a1a1a;
+        padding: 55px 0px;
+    }
+    .icon-close {
+        z-index: 100;
+        position: relative;
+        bottom: 30px;
+        cursor: pointer;
+    }
+    .icon-hm {
+        height: 30px;
+        display: block;
+    }
+    .conteiner-topo {
+        padding: 40px 40px 0px 40px;
+    }
+    .navs {
+        border-bottom: 0px solid white;
+    }
+    .navs:hover {
+        background-color: #7b797921;
+    }
 }
