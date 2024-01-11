@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url("../font/Oswald-VariableFont_wght.ttf");
+}
+body {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+body, h1, h3, p, a, h5 {
+    font-weight: 100;
+    color: white;
+    font-family: Oswald;
+    letter-spacing: 1px;
+}
+.conteiner-topo, .nav-topo{
+    display: flex;
+}
+.conteiner-topo {
+    justify-content: space-between;
+    padding: 30px 0px 0px 80px;
+    align-items: center;
+    width: 1600px;
+    margin: 0px auto;
+}
+.linha-topo {
+    width: 40%;
+    position: absolute;
+    right: 750px;
+    width: 630px;
+    position: absolute;
+    right: 47%;
+}
+.nav-topo {
+    gap: 40px;
+    background-color: rgb(22 22 22 / 52%);
+    padding: 0px 150px 0px 50px;
+    width: 620px;
+    justify-content: center;
+}
+.navs {
+    padding: 30px 0px;
+}
+.img-logo {
+    height: 45px;
+    z-index: 100;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+hr {
+    border: 1px solid #80808052;
+}
+.dif-c {
+    font-weight: 600;
+    color: #808080a1;
+}
+.titulo-nav {
+    margin: 20px 0px 80px 0px;
+    display: flex;
+    gap: 20px;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.conteiner-main {
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.cl-w {
+    border-bottom: 3px solid white;
+}
+
+.conteiner-conteudo {
+    display: flex;
+}
+#lista-tech {
+    padding: 0px;
+}
+li {
+    list-style-type: none;
+    font-size: 30px;
+    width: 60px;
+    border-radius: 30px;
+    font-family: none;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.438);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+li:hover, .li-tech{
+    background: white;
+    color: black;
+}
+
+h5 {
+    margin: 10px 0px 5px 0px;
+}
+h1 {
+    font-size: 60px;
+    font-family: math;
+    margin: 0px;
+}
+.texto-conteudo {
+    margin-left: 50px;
+}
+p {
+    max-width: 400px;
+}
+.img-tech {
+    position: absolute;
+    left: 58%;
+    top: 240px;
+}
