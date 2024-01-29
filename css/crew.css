@@ -88,8 +88,7 @@ h3 {
 .lista-crew {
     display: flex;
     gap: 35px;
-    position: absolute;
-    bottom: 180px;
+    position: relative;
 }
 h1 {
     font-size: 70px;
