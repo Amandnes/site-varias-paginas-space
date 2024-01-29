@@ -12,7 +12,7 @@ fetch("data.json").then(resposta => {
         imgTech.setAttribute('src', data.technology[i].images.portrait)
 
         for(let i = 0; i <= lista.length; i++) {
-          if(lista[i].classList.contains('li-tech')) {
+          if(lista[i] !== li) {
             lista[i].classList.remove('li-tech')
           } else {
             li.classList.add('li-tech')

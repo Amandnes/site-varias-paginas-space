@@ -16,8 +16,7 @@ fetch("data.json").then(resposta => {
           travelDestination.innerHTML = data.destinations[i].travel           
     
           for(let i = 0; i <= nomeP.length ; i++) {
-            let ativo = nomeP[i].classList.contains('cl-w')
-            if(ativo === true) {
+            if(nomeP[i] !== e) {
               nomeP[i].classList.remove('cl-w')
             } else {
               e.classList.add('cl-w')
