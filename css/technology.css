@@ -197,4 +197,11 @@ p {
     .navs:hover {
         background-color: #7b797921;
     }
+    .conteiner-main {
+        width: initial;
+        margin: 0px 40px;
+    }
+    .img-tech {
+        width: 100%;
+    }
 }

@@ -121,6 +121,8 @@ li:hover {
     left: 52%;
     margin: 0px auto;
     max-width: 601px;
+    width: 100%;
+    top: 190px;
 }
 .icon-hm {
     display: none;
@@ -202,5 +204,12 @@ li:hover {
     }
     .navs:hover {
         background-color: #7b797921;
+    }
+    .conteiner-main {
+        width: initial;
+        margin: 0px 40px;
+    }
+    p {
+        max-width: initial;
     }
 }

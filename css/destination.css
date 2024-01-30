@@ -180,4 +180,17 @@ h5, h3 {
     .navs:hover {
         background-color: #7b797921;
     }
+    .conteiner-conteudo, .conteiner-main {
+        width: initial;
+    }
+    .conteiner-main {
+        margin: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .img-destination {
+        width: 300px;
+    }
 }
