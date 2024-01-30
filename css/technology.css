@@ -213,4 +213,7 @@ p {
         display: flex;
         flex-direction: column;
     }
+    .texto-conteudo {
+        text-align: center;
+    }
 }
