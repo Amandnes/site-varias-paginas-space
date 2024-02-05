@@ -117,12 +117,11 @@ li:hover {
     color: white;
 }
 .img-crew {
-    position: fixed;
+    position: absolute;
     left: 52%;
     margin: 0px auto;
-    max-width: 601px;
-    width: 100%;
-    top: 190px;
+    max-width: 500px;
+    top: 220px;
 }
 .icon-hm {
     display: none;
